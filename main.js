@@ -3,3 +3,6 @@ function saludar (nombre) {
     }
     saludar ("Daniel");
 
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+      }
